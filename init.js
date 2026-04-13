@@ -35,7 +35,7 @@ document.getElementsByTagName("header")[0].innerHTML = `
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="galleri.html">Galleri</a>
+          <a class="nav-link " href="Resturang.html">Restaurang</a>
         </li>
 
         <li class="nav-item">
@@ -52,23 +52,36 @@ document.getElementsByTagName("header")[0].innerHTML = `
 </nav>
 `;
 
-document.getElementsByTagName( "footer")[0].innerHTML = `
+document.getElementsByTagName("foot")[0].innerHTML = `
+<footer class="bg-dark text-light py-4">
+    <div class="row text-center text-md-start">
 
-    <div class="card text-center">
+    
+      <div class="col-md-4 mb-4">
+        <h5>Kontakta oss</h5>
+        <p class="mb-1">Storgatan 1</p>
+        <p class="mb-1">123 45 Stad</p>
+        <p>Tel: 012-345 6789</p>
+      </div>
 
-      <div class="card-body ">
-        <figure>
-          <blockquote class="blockquote">
-            <p>Roses for every special moment</p>
-          </blockquote>
-          <figcaption class="blockquote-footer ">
-            Someone famous in <cite title="Source Title">Bouquettis</cite>
-          </figcaption>
-        </figure>
+      
+      <div class="col-md-4 mb-4">
+        <h5>Snabblänkar</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="footer-link">Hem</a></li>
+          <li><a href="#" class="footer-link">Våra Rum</a></li>
+          <li><a href="#" class="footer-link">Spa & Relax</a></li>
+          <li><a href="#" class="footer-link">Kontakt</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-4 mb-4 text-md-end">
+        <h5>Följ oss</h5>
+        
       </div>
 
     </div>
-
-
+    </footer>
 `;
 

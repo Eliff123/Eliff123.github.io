@@ -7,9 +7,10 @@ header{
     background: white;
     padding: 20px;
     border-radius: 20px;
-    margin-top: -50px;
-    z-index: 100;
+  
+ z-index: 100;
 }
+
 body{
 background:#f8f6f2; 
 font-family: 'Georgia', serif;
@@ -56,7 +57,33 @@ background:#b8964f;
 z-index: 100;
 }
 
+.mt{
+margin-top: 20px;
+color: rgb(0, 0, 0);
+}
 
 
+.footer{
+background-color:rgba(27, 70, 39, 0.6) ;   }
 
 
+.map-section {
+  background: #f8f5f2; 
+  padding: 50px 0;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 100% ;
+  margin: 0 auto;
+}
+
+.map-image {
+  height: 300px;
+  object-fit: cover;
+
+  border: 5px solid rgba(247, 231, 10, 0.4); /* tunn guldram */
+  border-radius: 8px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* svävande effekt */
+}
