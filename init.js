@@ -35,7 +35,7 @@ document.getElementsByTagName("header")[0].innerHTML = `
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="Resturang.html">Restaurang</a>
+          <a class="nav-link " href="Galleri.html">Galleri</a>
         </li>
 
         <li class="nav-item">

@@ -56,7 +56,7 @@
 
     <div class="col-md-3">
       <label>Gäster</label>
-      <input type="number" class="form-control" placeholder="Antal">
+      <input type="number min=0" class="form-control" placeholder="Antal">
     </div>
 
     <div class="col-md-3 d-flex align-items-end">
@@ -79,15 +79,15 @@
     </a>
 
 
-    <a href="restaurang.html" class="text-decoration-none text-dark">
+    <a href="kontakt.html" class="text-decoration-none text-dark">
       <div style="max-width:200px;"><img src="https://www.rooftopguiden.se/takbarer-i-stockholm/Bilder/tak-600-3.jpg" alt="Rum" class="img-fluid mt" style="width:200px; height:200px; object-fit:cover; border-radius:200px;"></div>
-      <p class="img-fluid rounded-circle">Restaurang</p>
+      <p class="img-fluid rounded-circle">Kontakt</p>
     </a>
 
     <!-- PRICK 3 -->
-    <a href="kontakt.html" class="text-decoration-none text-dark">
+    <a href="om.html" class="text-decoration-none text-dark">
       <div style="max-width:200px;"> <img src="https://cdn.prod.website-files.com/5e7e506ed2e43c816a1a5025/649de6d2717066e069afe543_stella-maris-waldof-1.jpeg" alt="Rum" class="img-fluid mt" style="width:200px; height:200px; border-radius:200px;"></div>
-      <p class="img-fluid rounded-circle">Hitta hit</p>
+      <p class="img-fluid rounded-circle">Om oss</p>
     </a>
 
   </div>
@@ -173,13 +173,21 @@
 
     </div>
 
-<div class="map-section">
-  <div class="map-container">
-    
-    <img 
-      src="https://img.ving.se/image/upload/c_fill,w_1280,h_853,q_auto:eco/dam-upload/Hotel/Maldives/MLE/7tcmhtk/MV_MLE_Adaaran_Club_Rannalh_7tcmhtk_00168.jpg"
-      class="img-fluid w-100 map-image"
-      alt="karta">
+<div class="container my-5">
+
+  <h2 class="text-center mb-4">Hitta hit</h2>
+
+  <div class="map-container shadow rounded overflow-hidden">
+
+    <iframe
+      src="https://www.google.com/maps?q=39.5667,2.6500&z=12&output=embed"
+      width="100%"
+      height="350"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
 
   </div>
 </div>
