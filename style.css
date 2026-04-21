@@ -3,6 +3,9 @@ header{
     background: rgba(255, 255, 255, 0.6) !
 }
 
+footer{
+    background:rgba(6, 63, 22, 0.6) ;
+}
 .booking-box{
     background: white;
     padding: 20px;

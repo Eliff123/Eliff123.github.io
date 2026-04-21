@@ -52,8 +52,8 @@ document.getElementsByTagName("header")[0].innerHTML = `
 </nav>
 `;
 
-document.getElementsByTagName("foot")[0].innerHTML = `
-<footer class="bg-dark text-light py-4">
+document.getElementsByTagName("footer")[0].innerHTML = `
+
     <div class="row text-center text-md-start">
 
     
@@ -76,12 +76,9 @@ document.getElementsByTagName("foot")[0].innerHTML = `
       </div>
 
       
-      <div class="col-md-4 mb-4 text-md-end">
-        <h5>Följ oss</h5>
-        
-      </div>
+      
 
     </div>
-    </footer>
+  
 `;
 
