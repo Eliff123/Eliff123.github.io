@@ -46,7 +46,7 @@ document.getElementsByTagName("header")[0].innerHTML = `
     </div>
 
     <!-- BOKA KNAPP HÖGER -->
-    <a href="bokning.html" class="btn btn-warning">BOKA NU</a>
+    <a href="kontakt.html" class="btn btn-warning">BOKA NU</a>
 
   </div>
 </nav>

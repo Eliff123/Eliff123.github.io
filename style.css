@@ -3,6 +3,24 @@ header{
     background: rgba(255, 255, 255, 0.6) !
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Tar bort små glipor under bilder */
+}
+
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 15px; /* Behåll lite luft vid kanterna om du vill */
+  padding-right: 15px;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Förhindrar att man kan scrolla i sidled */
+}
+
 footer{
     background:rgba(6, 63, 22, 0.6) ;
 }
@@ -89,4 +107,17 @@ background-color:rgba(27, 70, 39, 0.6) ;   }
   border-radius: 8px;
 
   box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* svävande effekt */
+}
+.img-fluid.rounded-circle {
+  width: 150px; /* Maxstorlek på desktop */
+  height: 150px;
+  object-fit: cover;
+}
+
+/* På små skärmar (t.ex. Samsung/mobiler) gör vi dem mindre */
+@media (max-width: 576px) {
+  .img-fluid.rounded-circle {
+    width: 80px; 
+    height: 80px;
+  }
 }
