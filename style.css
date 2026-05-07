@@ -9,6 +9,12 @@ img {
   display: block; /* Tar bort små glipor under bilder */
 }
 
+.position-absolute {
+    background-color: rgba(0, 0, 0, 0.4); /* Svart lager med 40% synlighet */
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .container {
   max-width: 100% !important;
   width: 100% !important;

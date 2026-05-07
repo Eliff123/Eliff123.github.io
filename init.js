@@ -6,10 +6,10 @@ document.getElementsByTagName("header")[0].innerHTML = `
 
     <!-- LOGGA VÄNSTER -->
     <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="https://thumbs.dreamstime.com/b/gl%C3%A4nt-gyllene-p%C3%A4ron-av-guld-p%C3%A5-vit-bakgrund-som-%C3%A4r-perfekt-f%C3%B6r-opulent-dekortematreklam-och-konstn%C3%A4rlig-reklam-decour-themes-303121975.jpg?w=992"
+      <img src="https://thumbs.dreamstime.com/b/gl%C3%A4nt-gyllene-p%C3%A4ron-av-guld-p%C3%A5-vit-bakgrund-som-%C3%A4r-perfekt-f%C3%B6r-opulent-dekortematreklam-och-konstn%C3%A4rlig-reklam-decour-themes-303121975.jpg?w=992.webp"
       alt="Pärson Hotels"
       class="logo img-fluid rounded-circle"
-      style="width:40px; height:40px;">
+      style="width:30px; height:40px;">
       <span class="brand-text ms-2 ">Pärson Hotels</span>
     </a>
 
@@ -46,7 +46,7 @@ document.getElementsByTagName("header")[0].innerHTML = `
     </div>
 
     <!-- BOKA KNAPP HÖGER -->
-    <a href="kontakt.html" class="btn btn-warning">BOKA NU</a>
+    <a href="kontakt.html" class="btn btn-warning" aria-label="BOKA NU">BOKA NU</a>
 
   </div>
 </nav>
@@ -68,10 +68,10 @@ document.getElementsByTagName("footer")[0].innerHTML = `
       <div class="col-md-4 mb-4">
         <h5>Snabblänkar</h5>
         <ul class="list-unstyled">
-          <li><a href="index.html" class="footer-link">Hem</a></li>
-          <li><a href="#" class="footer-link">Våra Rum</a></li>
-          <li><a href="#" class="footer-link">Spa & Relax</a></li>
-          <li><a href="#" class="footer-link">Kontakt</a></li>
+          <li><a href="index.html" class="a.footer-link">Hem</a></li>
+          <li><a href="#" class="a.footer-link">Våra Rum</a></li>
+          <li><a href="#" class="a.footer-link">Spa & Relax</a></li>
+          <li><a href="#" class="a.footer-link">Kontakt</a></li>
         </ul>
       </div>
 
